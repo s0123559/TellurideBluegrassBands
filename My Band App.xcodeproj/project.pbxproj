@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E9A28E1F9A8B26002F199B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A28D1F9A8B26002F199B /* AppDelegate.swift */; };
+		90E9A2901F9A8B26002F199B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A28F1F9A8B26002F199B /* MasterViewController.swift */; };
+		90E9A2921F9A8B26002F199B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A2911F9A8B26002F199B /* DetailViewController.swift */; };
+		90E9A2951F9A8B26002F199B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2931F9A8B26002F199B /* Main.storyboard */; };
+		90E9A2971F9A8B26002F199B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2961F9A8B26002F199B /* Assets.xcassets */; };
+		90E9A29A1F9A8B26002F199B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2981F9A8B26002F199B /* LaunchScreen.storyboard */; };
+		90E9A2A51F9A8B26002F199B /* My_Band_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A2A41F9A8B26002F199B /* My_Band_AppTests.swift */; };
+		90E9A2B01F9A8B26002F199B /* My_Band_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A2AF1F9A8B26002F199B /* My_Band_AppUITests.swift */; };
+		90E9A2C61F9A94C5002F199B /* AlisonKrauss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2BE1F9A94C5002F199B /* AlisonKrauss.jpg */; };
+		90E9A2C71F9A94C5002F199B /* BelaFleck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2BF1F9A94C5002F199B /* BelaFleck.jpg */; };
+		90E9A2C81F9A94C5002F199B /* ChrisThile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C01F9A94C5002F199B /* ChrisThile.jpg */; };
+		90E9A2C91F9A94C5002F199B /* CrookedStill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C11F9A94C5002F199B /* CrookedStill.jpg */; };
+		90E9A2CA1F9A94C5002F199B /* FleckWashburn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C21F9A94C5002F199B /* FleckWashburn.jpg */; };
+		90E9A2CB1F9A94C5002F199B /* JohnCowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C31F9A94C5002F199B /* JohnCowan.jpg */; };
+		90E9A2CC1F9A94C5002F199B /* SamBush.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C41F9A94C5002F199B /* SamBush.jpg */; };
+		90E9A2CD1F9A94C5002F199B /* TellurideBluegrass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E9A2C51F9A94C5002F199B /* TellurideBluegrass.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E9A2A11F9A8B26002F199B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E9A2821F9A8B26002F199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E9A2891F9A8B26002F199B;
+			remoteInfo = "My Band App";
+		};
+		90E9A2AC1F9A8B26002F199B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E9A2821F9A8B26002F199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E9A2891F9A8B26002F199B;
+			remoteInfo = "My Band App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90E9A28A1F9A8B26002F199B /* My Band App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Band App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E9A28D1F9A8B26002F199B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90E9A28F1F9A8B26002F199B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		90E9A2911F9A8B26002F199B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		90E9A2941F9A8B26002F199B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E9A2961F9A8B26002F199B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E9A2991F9A8B26002F199B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E9A29B1F9A8B26002F199B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E9A2A01F9A8B26002F199B /* My Band AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Band AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E9A2A41F9A8B26002F199B /* My_Band_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Band_AppTests.swift; sourceTree = "<group>"; };
+		90E9A2A61F9A8B26002F199B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E9A2AB1F9A8B26002F199B /* My Band AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Band AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E9A2AF1F9A8B26002F199B /* My_Band_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Band_AppUITests.swift; sourceTree = "<group>"; };
+		90E9A2B11F9A8B26002F199B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E9A2BE1F9A94C5002F199B /* AlisonKrauss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlisonKrauss.jpg; sourceTree = "<group>"; };
+		90E9A2BF1F9A94C5002F199B /* BelaFleck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BelaFleck.jpg; sourceTree = "<group>"; };
+		90E9A2C01F9A94C5002F199B /* ChrisThile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChrisThile.jpg; sourceTree = "<group>"; };
+		90E9A2C11F9A94C5002F199B /* CrookedStill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CrookedStill.jpg; sourceTree = "<group>"; };
+		90E9A2C21F9A94C5002F199B /* FleckWashburn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FleckWashburn.jpg; sourceTree = "<group>"; };
+		90E9A2C31F9A94C5002F199B /* JohnCowan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohnCowan.jpg; sourceTree = "<group>"; };
+		90E9A2C41F9A94C5002F199B /* SamBush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamBush.jpg; sourceTree = "<group>"; };
+		90E9A2C51F9A94C5002F199B /* TellurideBluegrass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TellurideBluegrass.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E9A2871F9A8B26002F199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A29D1F9A8B26002F199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A2A81F9A8B26002F199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E9A2811F9A8B26002F199B = {
+			isa = PBXGroup;
+			children = (
+				90E9A2BD1F9A944C002F199B /* Photos */,
+				90E9A28C1F9A8B26002F199B /* My Band App */,
+				90E9A2A31F9A8B26002F199B /* My Band AppTests */,
+				90E9A2AE1F9A8B26002F199B /* My Band AppUITests */,
+				90E9A28B1F9A8B26002F199B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90E9A28B1F9A8B26002F199B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A28A1F9A8B26002F199B /* My Band App.app */,
+				90E9A2A01F9A8B26002F199B /* My Band AppTests.xctest */,
+				90E9A2AB1F9A8B26002F199B /* My Band AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E9A28C1F9A8B26002F199B /* My Band App */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A28D1F9A8B26002F199B /* AppDelegate.swift */,
+				90E9A28F1F9A8B26002F199B /* MasterViewController.swift */,
+				90E9A2911F9A8B26002F199B /* DetailViewController.swift */,
+				90E9A2931F9A8B26002F199B /* Main.storyboard */,
+				90E9A2961F9A8B26002F199B /* Assets.xcassets */,
+				90E9A2981F9A8B26002F199B /* LaunchScreen.storyboard */,
+				90E9A29B1F9A8B26002F199B /* Info.plist */,
+			);
+			path = "My Band App";
+			sourceTree = "<group>";
+		};
+		90E9A2A31F9A8B26002F199B /* My Band AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A2A41F9A8B26002F199B /* My_Band_AppTests.swift */,
+				90E9A2A61F9A8B26002F199B /* Info.plist */,
+			);
+			path = "My Band AppTests";
+			sourceTree = "<group>";
+		};
+		90E9A2AE1F9A8B26002F199B /* My Band AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A2AF1F9A8B26002F199B /* My_Band_AppUITests.swift */,
+				90E9A2B11F9A8B26002F199B /* Info.plist */,
+			);
+			path = "My Band AppUITests";
+			sourceTree = "<group>";
+		};
+		90E9A2BD1F9A944C002F199B /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A2BE1F9A94C5002F199B /* AlisonKrauss.jpg */,
+				90E9A2BF1F9A94C5002F199B /* BelaFleck.jpg */,
+				90E9A2C01F9A94C5002F199B /* ChrisThile.jpg */,
+				90E9A2C11F9A94C5002F199B /* CrookedStill.jpg */,
+				90E9A2C21F9A94C5002F199B /* FleckWashburn.jpg */,
+				90E9A2C31F9A94C5002F199B /* JohnCowan.jpg */,
+				90E9A2C41F9A94C5002F199B /* SamBush.jpg */,
+				90E9A2C51F9A94C5002F199B /* TellurideBluegrass.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E9A2891F9A8B26002F199B /* My Band App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E9A2B41F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band App" */;
+			buildPhases = (
+				90E9A2861F9A8B26002F199B /* Sources */,
+				90E9A2871F9A8B26002F199B /* Frameworks */,
+				90E9A2881F9A8B26002F199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Band App";
+			productName = "My Band App";
+			productReference = 90E9A28A1F9A8B26002F199B /* My Band App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E9A29F1F9A8B26002F199B /* My Band AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E9A2B71F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band AppTests" */;
+			buildPhases = (
+				90E9A29C1F9A8B26002F199B /* Sources */,
+				90E9A29D1F9A8B26002F199B /* Frameworks */,
+				90E9A29E1F9A8B26002F199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E9A2A21F9A8B26002F199B /* PBXTargetDependency */,
+			);
+			name = "My Band AppTests";
+			productName = "My Band AppTests";
+			productReference = 90E9A2A01F9A8B26002F199B /* My Band AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E9A2AA1F9A8B26002F199B /* My Band AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E9A2BA1F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band AppUITests" */;
+			buildPhases = (
+				90E9A2A71F9A8B26002F199B /* Sources */,
+				90E9A2A81F9A8B26002F199B /* Frameworks */,
+				90E9A2A91F9A8B26002F199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E9A2AD1F9A8B26002F199B /* PBXTargetDependency */,
+			);
+			name = "My Band AppUITests";
+			productName = "My Band AppUITests";
+			productReference = 90E9A2AB1F9A8B26002F199B /* My Band AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E9A2821F9A8B26002F199B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					90E9A2891F9A8B26002F199B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RZB966GZ6E;
+						ProvisioningStyle = Automatic;
+					};
+					90E9A29F1F9A8B26002F199B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RZB966GZ6E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90E9A2891F9A8B26002F199B;
+					};
+					90E9A2AA1F9A8B26002F199B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RZB966GZ6E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90E9A2891F9A8B26002F199B;
+					};
+				};
+			};
+			buildConfigurationList = 90E9A2851F9A8B26002F199B /* Build configuration list for PBXProject "My Band App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E9A2811F9A8B26002F199B;
+			productRefGroup = 90E9A28B1F9A8B26002F199B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E9A2891F9A8B26002F199B /* My Band App */,
+				90E9A29F1F9A8B26002F199B /* My Band AppTests */,
+				90E9A2AA1F9A8B26002F199B /* My Band AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E9A2881F9A8B26002F199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E9A2CC1F9A94C5002F199B /* SamBush.jpg in Resources */,
+				90E9A2CA1F9A94C5002F199B /* FleckWashburn.jpg in Resources */,
+				90E9A29A1F9A8B26002F199B /* LaunchScreen.storyboard in Resources */,
+				90E9A2CB1F9A94C5002F199B /* JohnCowan.jpg in Resources */,
+				90E9A2CD1F9A94C5002F199B /* TellurideBluegrass.jpg in Resources */,
+				90E9A2C91F9A94C5002F199B /* CrookedStill.jpg in Resources */,
+				90E9A2C81F9A94C5002F199B /* ChrisThile.jpg in Resources */,
+				90E9A2971F9A8B26002F199B /* Assets.xcassets in Resources */,
+				90E9A2C71F9A94C5002F199B /* BelaFleck.jpg in Resources */,
+				90E9A2951F9A8B26002F199B /* Main.storyboard in Resources */,
+				90E9A2C61F9A94C5002F199B /* AlisonKrauss.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A29E1F9A8B26002F199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A2A91F9A8B26002F199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E9A2861F9A8B26002F199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E9A2921F9A8B26002F199B /* DetailViewController.swift in Sources */,
+				90E9A2901F9A8B26002F199B /* MasterViewController.swift in Sources */,
+				90E9A28E1F9A8B26002F199B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A29C1F9A8B26002F199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E9A2A51F9A8B26002F199B /* My_Band_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E9A2A71F9A8B26002F199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E9A2B01F9A8B26002F199B /* My_Band_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E9A2A21F9A8B26002F199B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E9A2891F9A8B26002F199B /* My Band App */;
+			targetProxy = 90E9A2A11F9A8B26002F199B /* PBXContainerItemProxy */;
+		};
+		90E9A2AD1F9A8B26002F199B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E9A2891F9A8B26002F199B /* My Band App */;
+			targetProxy = 90E9A2AC1F9A8B26002F199B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90E9A2931F9A8B26002F199B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E9A2941F9A8B26002F199B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E9A2981F9A8B26002F199B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E9A2991F9A8B26002F199B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E9A2B21F9A8B26002F199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E9A2B31F9A8B26002F199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E9A2B51F9A8B26002F199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90E9A2B61F9A8B26002F199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90E9A2B81F9A8B26002F199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Band App.app/My Band App";
+			};
+			name = Debug;
+		};
+		90E9A2B91F9A8B26002F199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Band App.app/My Band App";
+			};
+			name = Release;
+		};
+		90E9A2BB1F9A8B26002F199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Band App";
+			};
+			name = Debug;
+		};
+		90E9A2BC1F9A8B26002F199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZB966GZ6E;
+				INFOPLIST_FILE = "My Band AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.My-Band-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Band App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E9A2851F9A8B26002F199B /* Build configuration list for PBXProject "My Band App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E9A2B21F9A8B26002F199B /* Debug */,
+				90E9A2B31F9A8B26002F199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E9A2B41F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E9A2B51F9A8B26002F199B /* Debug */,
+				90E9A2B61F9A8B26002F199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E9A2B71F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E9A2B81F9A8B26002F199B /* Debug */,
+				90E9A2B91F9A8B26002F199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E9A2BA1F9A8B26002F199B /* Build configuration list for PBXNativeTarget "My Band AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E9A2BB1F9A8B26002F199B /* Debug */,
+				90E9A2BC1F9A8B26002F199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90E9A2821F9A8B26002F199B /* Project object */;
+}
